@@ -1,0 +1,14 @@
+Install - Node.js and NPM ( search in google )
+
+In .env.local change EMAIL_TO_SEND_FORM to your mail and APP_DOMAIN to your deployment domain.
+
+Open cmd in this directory run -
+npm install
+
+* change content in src/content.js *
+after that run -
+npm run dev
+
+Each time you will change content.js the changes will be updated.
+
+open browser in localhost:3000
