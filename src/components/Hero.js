@@ -3,7 +3,7 @@ import { CTA_TEXT, HERO_SUBTITLE, HERO_TITLE } from "@/content";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
-import { useUncoverPreloader } from "./hooks/UseUncoverPreloader";
+import { useUncoverPreloader } from "./hooks/useUncoverPreloader.js";
 
 function Hero() {
   const [isLoaded, setIsLoaded] = useUncoverPreloader();
